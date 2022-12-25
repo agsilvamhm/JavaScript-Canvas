@@ -24,6 +24,10 @@ cena.onmousemove = function(e){
 
 function copiarImagem()
 {
-    cena2 = cena   
+    let image = new Image();
+    image.src = quadro.toDataURL("image/jpeg", 1.0);
 
+    quadro2.appendChild(image.src)
+    document.appendChild(image.src);
+  
 }
