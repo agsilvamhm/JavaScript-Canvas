@@ -4,12 +4,13 @@ body {
 
 #botao {
     
-    display: center;
+    display:flex;
+    flex-direction: column;
+    
 }
 
 #quadro {
-    background-color: rgb(150, 255, 176);
-}
+    background-color: rgb(0,255,0);}
 
 #quadro2 {
     background-color: rgb(0, 0, 255);

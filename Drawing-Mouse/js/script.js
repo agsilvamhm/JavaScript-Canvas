@@ -25,9 +25,15 @@ cena.onmousemove = function(e){
 function copiarImagem()
 {
     let image = new Image();
-    image.src = quadro.toDataURL("image/jpeg", 1.0);
+    let dataUrl = quadro.toDataURL('image/jpeg', 1.0);
 
-    quadro2.appendChild(image.src)
-    document.appendChild(image.src);
-  
+    const imagem = document.createElement('a')
+    imagem.download = 'download.png'
+    imagem.href =  quadro.toDataURL('image/jpeg', 0.5);
+    imagem.click()
+    imagem.delete
+}
+
+function comparando(){
+    
 }
