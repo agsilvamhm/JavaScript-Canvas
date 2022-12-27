@@ -23,10 +23,7 @@ cena.onmousemove = function(e){
  }
 
 function copiarImagem()
-{
-    let image = new Image();
-    let dataUrl = quadro.toDataURL('image/jpeg', 1.0);
-
+{         
     const imagem = document.createElement('a')
     imagem.download = 'download.png'
     imagem.href =  quadro.toDataURL('image/jpeg', 0.5);
