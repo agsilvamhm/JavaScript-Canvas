@@ -1,6 +1,6 @@
 const canvas = document.createElement("canvas")
-canvas.width = 1200
-canvas.height = 400
+canvas.width = 1052
+canvas.height = 360
 const renderingContext = canvas.getContext("2d")
 
 document.body.appendChild(canvas)
@@ -14,7 +14,7 @@ image.onload = function(){
 image.src="./imagem/imagem_522_357.jpg"
 
 const grayScale = function(){
-    renderingContext.drawImage(image, 0, 0)
+    renderingContext.drawImage(image, 0, 0) // Coloca a imgem no Canvas na posição 0 0
     const imageData = renderingContext.getImageData(0, 0, image.width, image.height)
 
     const data = imageData.data

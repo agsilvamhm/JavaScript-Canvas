@@ -1,5 +1,4 @@
 let cena = document.getElementById("quadro")
-let cena2 = document.getElementById("quadro2")
 
 let ctx = cena.getContext("2d")
 
