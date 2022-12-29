@@ -6,3 +6,6 @@ https://www.youtube.com/watch?v=LQpxDIBPDMA&list=PLx4x_zx8csUgPYODrHLlIw3ibmGBud
 
 ## Javascript - Desenhando com o mouse no Canvas. Aula-Extra
 https://www.youtube.com/watch?v=hWgmHDU4FB0&t=80s
+
+## Pixel - Javascript Canvas. Aula-Extra 
+https://www.youtube.com/watch?v=-ilcdB4vFZI
