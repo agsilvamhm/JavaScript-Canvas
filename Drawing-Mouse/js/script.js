@@ -1,8 +1,14 @@
 let cena = document.getElementById("quadro")
+let lista = document.getElementById("lista")
 
 let ctx = cena.getContext("2d")
 
 let desenhando = false
+
+ctx.fillStyle = "rgb(255,255,255)"
+ctx.fillRect(0,0, cena.clientWidth , cena.clientHeight)
+
+ctx.fillStyle= "rgb(255,0,0)"
 
 cena.onmousedown = function(e){
        ctx.moveTo(e.clientX, e.clientY)
@@ -31,5 +37,14 @@ function copiarImagem()
 }
 
 function comparando(){
-    
+  const imageData = ctx.getImageData(0,0, cena.clientWidth, cena.clientHeight )
+   
+  const data = imageData.data 
+  
+  for (let i = 0; i < data.length; i += 4){      
+      if (data[i + 1] != 255) {
+  //      console.log(data[i],data[i+1])
+      }
+}
+
 }
