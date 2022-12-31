@@ -7,8 +7,6 @@ let desenhando = false
 ctx.fillStyle = "rgb(255,255,255)"
 ctx.fillRect(0,0, cena.clientWidth + 29 , cena.clientHeight + 13)
 
-ctx.fillStyle= "rgb(255,0,0)"
-
 cena.onmousedown = function(e){
        ctx.moveTo(e.clientX, e.clientY)
        desenhando = true
@@ -20,7 +18,7 @@ cena.onmouseup = function(e){
 
 cena.onmousemove = function(e){
     if (desenhando) {
-        ctx.strokeStyle = "red"
+        ctx.strokeStyle =  "rgb(65,105,225)"
         ctx.lineTo(e.clientX, e.clientY)
         ctx.stroke()
     }
@@ -37,7 +35,6 @@ function copiarImagem()
 
 const lista = document.getElementById("lista")
 
-
 function comparando(){
   const imageData = ctx.getImageData(0,0, cena.clientWidth, cena.clientHeight )
    
@@ -53,11 +50,10 @@ function comparando(){
           cont = cont + 1
       }
 
-      if (cont > 10 ){
+      if (cont > 300 ){
         titulo.innerHTML = "Assinado" 
        }  else {
         titulo.innerHTML = "Não assinado" 
        }
-}
-
+    } 
 }
