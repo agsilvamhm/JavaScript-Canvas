@@ -15,3 +15,6 @@ https://www.youtube.com/watch?v=ARhhsJeZxlw&list=PLx4x_zx8csUgPYODrHLlIw3ibmGBud
 
 ## Desenhando linhas no Canvas [Canvas] - Curso de Canvas - Aula 03
 https://www.youtube.com/watch?v=IZzNQqF1_oc&list=PLx4x_zx8csUgPYODrHLlIw3ibmGBudkHr&index=3
+
+## Movimentar elementos por programação #P1 [Canvas] - Curso de Canvas - Aula 04
+https://www.youtube.com/watch?v=7Kcnk9J8APA&list=PLx4x_zx8csUgPYODrHLlIw3ibmGBudkHr&index=4
