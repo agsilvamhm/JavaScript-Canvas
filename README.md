@@ -12,3 +12,6 @@ https://www.youtube.com/watch?v=-ilcdB4vFZI
 
 ## Aprendendo sobre rect, clearRect e fillRect [Canvas] - Curso de Canvas - Aula 02
 https://www.youtube.com/watch?v=ARhhsJeZxlw&list=PLx4x_zx8csUgPYODrHLlIw3ibmGBudkHr&index=2
+
+## Desenhando linhas no Canvas [Canvas] - Curso de Canvas - Aula 03
+https://www.youtube.com/watch?v=IZzNQqF1_oc&list=PLx4x_zx8csUgPYODrHLlIw3ibmGBudkHr&index=3
