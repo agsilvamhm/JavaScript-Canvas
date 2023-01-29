@@ -18,3 +18,6 @@ https://www.youtube.com/watch?v=IZzNQqF1_oc&list=PLx4x_zx8csUgPYODrHLlIw3ibmGBud
 
 ## Movimentar elementos por programação #P1 [Canvas] - Curso de Canvas - Aula 04
 https://www.youtube.com/watch?v=7Kcnk9J8APA&list=PLx4x_zx8csUgPYODrHLlIw3ibmGBudkHr&index=4
+
+## Movimentar elementos por programação #P2 [Canvas] - Curso de Canvas - Aula 05
+https://www.youtube.com/watch?v=GNJJJSEJb5o&list=PLx4x_zx8csUgPYODrHLlIw3ibmGBudkHr&index=5
