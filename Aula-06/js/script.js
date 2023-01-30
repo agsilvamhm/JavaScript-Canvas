@@ -34,15 +34,15 @@ function desenha(){
         direcao_y = 1
     }
 
-  //  if ((px + largura >= largura_canvas) && (py+ altura_canvas >= altura_canvas)){
-  //      direcao_x =  0
-   //     direcao_y = -1
-  //  }
+    if ((px + largura >= largura_canvas) && (py+ altura >= altura_canvas)){
+        direcao_x = -1
+        direcao_y = 0
+    }
 
-  //  if ((px <= 0) && (py + altura >= altura_canvas)){
-  //      direcao_x = 0
-  //      direcao_y = -1
- //   }
+    if ((px <= 0) && (py + altura >= altura_canvas)){
+        direcao_x = 0
+        direcao_y = -1
+    }
 
 
        
